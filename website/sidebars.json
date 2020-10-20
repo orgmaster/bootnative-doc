@@ -1,0 +1,27 @@
+{
+  "docs": {
+    "Get started": [
+      "introduction",
+      "quickstart",
+      "customize"
+    ],
+    "Utilities": [
+      "spacing",
+      "sizing",
+      "borders",
+      "colors"
+    ],
+    "Content":[
+      "typography"
+    ],
+    "Layout":[
+      "container",
+      "grid"
+    ],
+    "First Category": ["doc2"],
+    "Second Category": ["doc3"]
+  },
+  "docs-other": {
+    "First Category": ["doc4", "doc5"]
+  }
+}
