@@ -8,15 +8,24 @@
       "borders": {
         "title": "borders"
       },
+      "breakpoints": {
+        "title": "Breakpoints",
+        "sidebar_label": "Breakpoints"
+      },
       "colors": {
         "title": "colors"
       },
       "container": {
-        "title": "container"
+        "title": "Containers",
+        "sidebar_label": "Container"
       },
       "customize": {
         "title": "Customization",
         "sidebar_label": "Customize"
+      },
+      "es/breakpoints": {
+        "title": "Breakpoints",
+        "sidebar_label": "Breakpoints"
       },
       "doc4": {
         "title": "Other Document"
@@ -25,7 +34,8 @@
         "title": "Fifth Document"
       },
       "grid": {
-        "title": "grid"
+        "title": "Grid system",
+        "sidebar_label": "Grid"
       },
       "introduction": {
         "title": "Overview",

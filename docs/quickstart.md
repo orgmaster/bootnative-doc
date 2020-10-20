@@ -38,7 +38,7 @@ const bn = bootnative();
 export default function App(){
     return (
         <View>
-            <Text style={bn('mt-10 text-primary text-center')}>
+            <Text style={bn('mt-2 text-primary text-center')}>
                 Hello word from Bootnative!
             </Text>
         </View>

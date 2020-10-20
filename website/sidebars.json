@@ -15,6 +15,7 @@
       "typography"
     ],
     "Layout":[
+      "breakpoints",
       "container",
       "grid"
     ],

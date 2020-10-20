@@ -19,6 +19,10 @@
     box-shadow:0 0px 10px  #c9c9c9;
 }
 
+.text-muted{
+    color:grey;
+}
+
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 

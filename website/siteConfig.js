@@ -84,6 +84,9 @@ const siteConfig = {
   scripts: ['https://buttons.github.io/buttons.js',
     'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
     '/js/code-block-buttons.js'],
+  
+  stylesheets: [ 'https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css' ],
+
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
@@ -112,7 +115,9 @@ const siteConfig = {
     apiKey: '6c60c519461995020192a734d7e54c8d',
     indexName: 'prod_BOOTNATIVE',
     appId: '6AWGU6ON76', // Optional, if you run the DocSearch crawler on your own
-    algoliaOptions: {} // Optional, if provided by Algolia
+    algoliaOptions: {
+      facetFilters: [ /*"language:LANGUAGE",*/ "version:VERSION" ]
+    }
   },
 };
 

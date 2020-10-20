@@ -34,8 +34,8 @@ Assign <code>margin</code> and <code>padding</code> properties to your component
     To apply a scale you must add it after specifying a property <code>{prop}-{scale}</code>.
 </p>
 <ul>
-    <li><em>The property can be</em>: <code>m</code> or <code>p</code></li>
-    <li><em>Default scale value</em>: <code>auto</code></li>
+    <li><em>The property can be any</em>:<code>margin</code> or <code>padding</code> <a href="#margin">predefined</a></li>
+    <li><em>The scale value can be</em>: <code>auto || Integer >= 1</code></li>
 </ul>
 
 ## Example
