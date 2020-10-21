@@ -40,27 +40,5 @@ Assign <code>margin</code> and <code>padding</code> properties to your component
 
 ## Example
 
-<p>code</p>
-
-``` javascript
-import React from 'react';
-import {View, Text} from 'react-native';
-import bootnative from 'bootnative';
-
-const bn = bootnative();
-
-export default function App(){
-    return (
-        <View style={bn('m-20')}>
-            <Text style={ bn('ml-3') }>Text 1</Text>
-            <Text style={ bn('mt-2') }>Text 2</Text>
-            <Text style={ bn('my-1') }>Text 3</Text>
-            <Text style={ bn('m-10') }>Text 4</Text>
-            <Text style={ bn('ml-3') }>Text 5</Text>
-        </View>
-    );
-}
-```
-
-<p>Preview</p>
-<img class="shadow" src="/img/screenshots/spacing.png"/>
+<div data-snack-id="@alantoledo007/spaicing" data-snack-platform="web" data-snack-preview="true" data-snack-theme="dark" style="overflow:hidden;background:#212733;border:1px solid rgba(0,0,0,.08);border-radius:4px;height:505px;width:100%"></div>
+<script async src="https://snack.expo.io/embed.js"></script>

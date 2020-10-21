@@ -23,27 +23,5 @@ yarn add bootnative
 
 ## Implementation
 
-<p>Code</p>
-
-``` javascript
-import React from 'react';
-import {View, Text} from 'react-native';
-
-//import bootnative
-import bootnative from 'bootnative';
-
-//initialize
-const bn = bootnative();
-
-export default function App(){
-    return (
-        <View>
-            <Text style={bn('mt-2 text-primary text-center')}>
-                Hello word from Bootnative!
-            </Text>
-        </View>
-    );
-}
-```
-<p>Preview</p>
-<img class="shadow" src="/img/screenshots/initialization.png"/>
+<div data-snack-id="@alantoledo007/inplementation" data-snack-platform="web" data-snack-preview="true" data-snack-theme="dark" style="overflow:hidden;background:#212733;border:1px solid rgba(0,0,0,.08);border-radius:4px;height:505px;width:100%"></div>
+<script async src="https://snack.expo.io/embed.js"></script>

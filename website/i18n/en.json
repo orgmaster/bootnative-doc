@@ -13,7 +13,8 @@
         "sidebar_label": "Breakpoints"
       },
       "colors": {
-        "title": "colors"
+        "title": "Colors",
+        "sidebar_label": "Colors"
       },
       "container": {
         "title": "Containers",
@@ -22,10 +23,6 @@
       "customize": {
         "title": "Customization",
         "sidebar_label": "Customize"
-      },
-      "es/breakpoints": {
-        "title": "Breakpoints",
-        "sidebar_label": "Breakpoints"
       },
       "doc4": {
         "title": "Other Document"
@@ -46,7 +43,8 @@
         "sidebar_label": "Quick Start"
       },
       "sizing": {
-        "title": "sizing"
+        "title": "Sizing",
+        "sidebar_label": "Sizing"
       },
       "spacing": {
         "title": "Spacing",
