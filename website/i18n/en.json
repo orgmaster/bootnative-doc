@@ -6,7 +6,8 @@
     "tagline": "Create components has never been so easy",
     "docs": {
       "borders": {
-        "title": "borders"
+        "title": "Borders",
+        "sidebar_label": "Borders"
       },
       "breakpoints": {
         "title": "Breakpoints",
@@ -45,7 +46,8 @@
         "sidebar_label": "Spacing"
       },
       "typography": {
-        "title": "typography"
+        "title": "Typography",
+        "sidebar_label": "Typography"
       }
     },
     "links": {
