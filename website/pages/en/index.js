@@ -36,10 +36,10 @@ class HomeSplash extends React.Component {
     );
 
     const ProjectTitle = (props) => (
-      <h2 className="projectTitle">
+      <h1 className="projectTitle">
         {props.title}
         <small>{props.tagline}</small>
-      </h2>
+      </h1>
     );
 
     const PromoSection = (props) => (
@@ -64,9 +64,8 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href={docUrl('introduction')}>Get Started</Button>
+            <Button href={docUrl('quickstart')}>Install</Button>
           </PromoSection>
         </div>
       </SplashContainer>

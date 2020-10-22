@@ -22,9 +22,9 @@ const users = [
 
 const siteConfig = {
   title: 'Bootnative', // Title for your website.
-  tagline: 'A website for testing',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  tagline: 'Create components has never been so easy',
+  url: 'https://orgmaster.github.io', // Your website URL
+  baseUrl: '/bootnative/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -39,13 +39,12 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'introduction', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
     {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    // {blog: true, label: 'Blog'},
   ],
 
   // If you have users set above, you add it here:
-  users,
+  //users,
 
   /* path to images for header/footer */
   headerIcon: 'img/favicon.ico',
@@ -83,7 +82,7 @@ const siteConfig = {
   // Add custom scripts here that would be placed in <script> tags.
   scripts: ['https://buttons.github.io/buttons.js',
     'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
-    '/js/code-block-buttons.js'],
+    '/bootnative/js/code-block-buttons.js'],
   
   stylesheets: [ 'https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css' ],
 
@@ -109,16 +108,16 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  // repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: 'https://github.com/orgmaster/bootnative',
 
-  algolia: {
-    apiKey: '6c60c519461995020192a734d7e54c8d',
-    indexName: 'prod_BOOTNATIVE',
-    appId: '6AWGU6ON76', // Optional, if you run the DocSearch crawler on your own
-    algoliaOptions: {
-      facetFilters: [ /*"language:LANGUAGE",*/ "version:VERSION" ]
-    }
-  },
+  // algolia: {
+  //   apiKey: '6c60c519461995020192a734d7e54c8d',
+  //   indexName: 'prod_BOOTNATIVE',
+  //   appId: '6AWGU6ON76', // Optional, if you run the DocSearch crawler on your own
+  //   algoliaOptions: {
+  //     facetFilters: [ /*"language:LANGUAGE",*/ "version:VERSION" ]
+  //   }
+  // },
 };
 
 module.exports = siteConfig;

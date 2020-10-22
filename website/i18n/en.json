@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A website for testing",
+    "tagline": "Create components has never been so easy",
     "docs": {
       "borders": {
         "title": "Borders",
@@ -24,12 +24,6 @@
       "customize": {
         "title": "Customization",
         "sidebar_label": "Customize"
-      },
-      "doc4": {
-        "title": "Other Document"
-      },
-      "doc5": {
-        "title": "Fifth Document"
       },
       "grid": {
         "title": "Grid system",
@@ -58,17 +52,13 @@
     },
     "links": {
       "Docs": "Docs",
-      "API": "API",
-      "Help": "Help",
-      "Blog": "Blog"
+      "Help": "Help"
     },
     "categories": {
       "Get started": "Get started",
       "Utilities": "Utilities",
       "Content": "Content",
-      "Layout": "Layout",
-      "First Category": "First Category",
-      "Second Category": "Second Category"
+      "Layout": "Layout"
     }
   },
   "pages-strings": {
