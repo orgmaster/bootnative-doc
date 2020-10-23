@@ -100,21 +100,27 @@ class Index extends React.Component {
       </div>
     );
 
-    const TryOut = () => (
-      <Block id="try">
+    const TryOut = (props) => {
+      const {siteConfig, language = ''} = props;
+      const {baseUrl, docsUrl} = siteConfig;
+      const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
+      const langPart = `${language ? `${language}/` : ''}`;
+      const docUrl = (doc) => `${baseUrl}${docsPart}${langPart}${doc}`;
+      
+      return (<Block id="try">
         {[
           {
             content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
+              '<p class="text-left">Bootnative provides you with many tools so that you can build components saving hundreds of lines of code.</p>' +
+              '<p class="text-left">Read our <b><a href="'+docUrl('introduction')+'">documentation</a></b>and get started right now!</p>',
             image: `${baseUrl}img/undraw_code_review.svg`,
             imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
+            title: 'Keep your code clean',
           },
         ]}
       </Block>
     );
+    }
 
     const Description = () => (
       <Block background="dark">
@@ -135,10 +141,11 @@ class Index extends React.Component {
         {[
           {
             content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
+              '<p class="text-left">You are in complete control of the colors. And if they are not enough, you can add new ones!</p>'+
+              '<p class="text-left">In addition, you can modify the predefined variables to scale your projects to the maximum!</p>',
             image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
             imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
+            title: 'customize predefined variables and colors',
           },
         ]}
       </Block>
@@ -148,16 +155,16 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
+            content: 'Bootnative uses a syntax very similar to Bootstrap, this will allow you to integrate Bootnative into your applications quickly and easily.',
             image: `${baseUrl}img/undraw_react.svg`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'Bootstrap based',
           },
           {
-            content: 'The content of my second feature',
+            content: 'Bootnative is designed to facilitate the creation of components and responsive templates on applications developed in react-native.',
             image: `${baseUrl}img/undraw_operating_system.svg`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'For React-Native',
           },
         ]}
       </Block>
@@ -198,10 +205,10 @@ class Index extends React.Component {
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Features />
-          <FeatureCallout />
+          {/*<FeatureCallout />*/}
           <LearnHow />
-          <TryOut />
-          <Description />
+          <TryOut siteConfig={siteConfig} />
+          {/* <Description /> */}
           <Showcase />
         </div>
       </div>
