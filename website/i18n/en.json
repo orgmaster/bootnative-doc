@@ -48,6 +48,50 @@
       "typography": {
         "title": "Typography",
         "sidebar_label": "Typography"
+      },
+      "version-1.1.13/version-1.1.13-borders": {
+        "title": "Borders",
+        "sidebar_label": "Borders"
+      },
+      "version-1.1.13/version-1.1.13-breakpoints": {
+        "title": "Breakpoints",
+        "sidebar_label": "Breakpoints"
+      },
+      "version-1.1.13/version-1.1.13-colors": {
+        "title": "Colors",
+        "sidebar_label": "Colors"
+      },
+      "version-1.1.13/version-1.1.13-container": {
+        "title": "Containers",
+        "sidebar_label": "Container"
+      },
+      "version-1.1.13/version-1.1.13-customize": {
+        "title": "Customization",
+        "sidebar_label": "Customize"
+      },
+      "version-1.1.13/version-1.1.13-grid": {
+        "title": "Grid system",
+        "sidebar_label": "Grid"
+      },
+      "version-1.1.13/version-1.1.13-introduction": {
+        "title": "Overview",
+        "sidebar_label": "Introduction"
+      },
+      "version-1.1.13/version-1.1.13-quickstart": {
+        "title": "Quick Start",
+        "sidebar_label": "Quick Start"
+      },
+      "version-1.1.13/version-1.1.13-sizing": {
+        "title": "Sizing",
+        "sidebar_label": "Sizing"
+      },
+      "version-1.1.13/version-1.1.13-spacing": {
+        "title": "Spacing",
+        "sidebar_label": "Spacing"
+      },
+      "version-1.1.13/version-1.1.13-typography": {
+        "title": "Typography",
+        "sidebar_label": "Typography"
       }
     },
     "links": {
